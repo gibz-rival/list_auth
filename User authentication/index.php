@@ -19,7 +19,7 @@ $user_data = check_login($con);
     <title>Document</title>
 </head>
 <body>
-    <h1 id="h1">NIXOR SOFTWARES <br>Hello, <?php echo $user_data['user_name'];?><a  href="logout.php"> Log out</a></h1>
+    <h1 id="h1">NIXOR INC. <br>Hello, <?php echo $user_data['user_name'];?><a  href="logout.php"> Log out</a></h1>
     
     
     <div class="container">
